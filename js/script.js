@@ -52,7 +52,7 @@ obs.observe(section_hero_el);
 
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
-const all_links = document.querySelectorAll("a:link");
+const all_links = document.querySelectorAll(".main-header-link");
 all_links.forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
